@@ -20,10 +20,10 @@ export const auth = defineAuth({
               }
             },
           ],
-          logoutUrls: ['http://localhost:8080/', 'https://app.ecs-research.dev/'],
+          logoutUrls: ['http://localhost:8080/', 'https://app2.ecs-research.dev/'],
           callbackUrls: [
             'http://localhost:8080',
-            'https://app.ecs-research.dev/',
+            'https://app2.ecs-research.dev/',
           ],
         },
   },
